@@ -1,0 +1,117 @@
+body.prim {
+    color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.mainentrada{
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+}
+
+#imagem {
+    width: 650px;
+}
+
+h4#ou{
+    flex-direction: row;
+    float: right;
+    margin-right: 170px;
+}
+
+.cadastro {
+    color: black;
+    display: flex;
+    margin-left: 355px;
+    
+}
+.cadastro:hover{
+    color: red;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.cabecalho-menu-item{
+    color: black;
+    font-family:unset;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabecalho-menu-item:hover{
+    color: red;
+}
+
+#top1, #bot1{
+    font-size: 32px;
+    }
+#top2, #bot2{
+    font-size: 20px;
+}
+
+#agendados, #linhasdisp{
+    font-size: 17px;
+    display: flex;
+    gap: 80px;
+}
+.box{
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+   
+}
+fieldset{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+legend{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.inputbox{
+    position: relative;
+}
+.L1{
+    font-size: 22px;
+}
+.L2{
+    font-size: 12px;
+}
+
+section{
+    background-image: url(onibus\ ofc.png);
+    padding: 10px;
+    width: 500px;
+    height: 1100px;
+    border-radius: 10px 10px 10px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.76);
+
+}
+
+input#A1 {
+    top: 21%;
+    left: 15.5%;
+}
+input#A2 {
+    top: 21%;
+    left: 14.5%;
+}
+input#A3 {
+    top: 30.5%;
+    left: -20.5%;
+}
